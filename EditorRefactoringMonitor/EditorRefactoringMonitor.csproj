@@ -9,8 +9,8 @@
     <ProjectGuid>{3D29B496-2FEE-4212-B055-DA89BB68D4E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EditorClassifier3</RootNamespace>
-    <AssemblyName>EditorClassifier3</AssemblyName>
+    <RootNamespace>EditorRefactoringMonitor</RootNamespace>
+    <AssemblyName>EditorRefactoringMonitor</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
