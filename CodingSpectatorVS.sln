@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingSpectatorVS", "CodingSpectatorVS\CodingSpectatorVS.csproj", "{BDD4AFB8-9E49-4243-98B7-902DDAC18B0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingSpectatorVS_IntegrationTests", "CodingSpectatorVS\CodingSpectatorVS_IntegrationTests\CodingSpectatorVS_IntegrationTests.csproj", "{6C8B2FBE-0C6F-43BF-8438-7930B7CD98FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE687471-449B-4011-88C8-B628D0688057}"
+	ProjectSection(SolutionItems) = preProject
+		CodingSpectatorVS.vsmdi = CodingSpectatorVS.vsmdi
+		IntegrationTests.testsettings = IntegrationTests.testsettings
+		UnitTests.testsettings = UnitTests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingSpectatorVS_UnitTests", "CodingSpectatorVS\CodingSpectatorVS_UnitTests\CodingSpectatorVS_UnitTests.csproj", "{3BE8D0A1-DB18-4C26-8E68-18287973375D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorRefactoringMonitor", "EditorRefactoringMonitor\EditorRefactoringMonitor.csproj", "{3D29B496-2FEE-4212-B055-DA89BB68D4E6}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CodingSpectatorVS.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD4AFB8-9E49-4243-98B7-902DDAC18B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD4AFB8-9E49-4243-98B7-902DDAC18B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD4AFB8-9E49-4243-98B7-902DDAC18B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD4AFB8-9E49-4243-98B7-902DDAC18B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8B2FBE-0C6F-43BF-8438-7930B7CD98FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8B2FBE-0C6F-43BF-8438-7930B7CD98FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8B2FBE-0C6F-43BF-8438-7930B7CD98FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8B2FBE-0C6F-43BF-8438-7930B7CD98FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE8D0A1-DB18-4C26-8E68-18287973375D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE8D0A1-DB18-4C26-8E68-18287973375D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE8D0A1-DB18-4C26-8E68-18287973375D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE8D0A1-DB18-4C26-8E68-18287973375D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D29B496-2FEE-4212-B055-DA89BB68D4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D29B496-2FEE-4212-B055-DA89BB68D4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D29B496-2FEE-4212-B055-DA89BB68D4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D29B496-2FEE-4212-B055-DA89BB68D4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
