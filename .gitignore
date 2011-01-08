@@ -1,9 +1,12 @@
 [Bb]in/
 [Oo]bj/
 !/lib
-*.user
+
+# Enabled for now so we can launch the project as Visual Studio Packages
+# *.user
+
 *.suo
-_ReSharper.*
+*ReSharper.*
 *.sln.cache
 *.xap
 *.vspcc
